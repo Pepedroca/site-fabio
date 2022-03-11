@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets\css\home.css">
+    <link rel="stylesheet" href="assets\css\menu.css">
+    <link rel="stylesheet" href="assets\css\cssfile.css">
+    <link rel="stylesheet" href="assets\css\form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai">
+    <link rel="stylesheet" href="assets\css\ver_mais.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700|Work+Sans&display=swap" rel="stylesheet">
+    <script src="assets\js\vermais.js"></script>
+    
+</head>
+<body >
+    <header id="header">
+
+
+        <nav id="nav-menu">
+            <div class="logo">
+                <a class='title-menu'href="http://127.0.0.1:5500/home.html">JN Marido de <span style="color: white;">aluguel </span></a>
+            </div>
+            <img src="https://cdn-icons-png.flaticon.com/512/1995/1995507.png" alt="" style="width:7%;">
+            <button id="menu-button">&#9776;</button>
+            <ul id="ul-menu">
+                <li>
+                    <a  href="index.html">Home</a>
+                </li>
+                <li>
+                    <a  href="serviços.html">serviços</a>
+                </li>
+                <li>
+                    <a  href="galeria.html">galeria</a>
+                </li>
+                <li>
+                    <a  href="faleconosco.html">Fale conosco</a>
+                </li>
+                <li>
+                    <a  href="https://www.google.com/maps/place/R.+Gon%C3%A7alves+de+Magalh%C3%A3es+-+Jardim+Centenario,+S%C3%A3o+Paulo+-+SP,+02882-110/@-23.4701302,-46.6696493,17z/data=!4m5!3m4!1s0x94cef76230be2529:0x3c9b504a60a1cb3e!8m2!3d-23.4700575!4d-46.6686396">localização</a>
+                </li>
+                <li>
+                    <a  href="https://api.whatsapp.com/send/?phone=5511971840277&text&app_absent=0">(11)97184-0277</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+	
+
+
+    <div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade" >
+			<div class="txt" >
+				<h1>Fala conosco</h1>
+				<p>Nos ligue<br>Nos mande uma mensagem.</p>
+                <p style="font-size: 15px;">home / orçamento</p>
+                <hr style="width: 40%;">
+                <br>
+                <p>Horário de atendimento das 8hrs até 18hrs (segunda à sexta).</p>
+                <a class="a-txt" href="http://127.0.0.1:5500/servi%C3%A7os.html">Serviços</a>
+                <a href="http://127.0.0.1:5500/faleconosco.html">Orçamento</a>
+
+			</div>
+            <div>
+
+            </div>
+                <img src="https://abrapg-ft.org.br/portal/wp-content/uploads/2021/05/top-fale.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+
+		
+		<div class="dotsbox" style="text-align:center">
+ 
+			<!-- <span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span> -->
+		</div>
+		<!-- /onclick js -->
+        <script src="assets\js\jsfile.js"></script>
+
+	</div>
+
+
+    <section id="information" > 
+        <div class="row">
+            <div class="col-3 col-s-3 menu">
+              <ul class="ul-inf">
+                <li><a href="http://127.0.0.1:5500/home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/servi%C3%A7os.html">serviços</a></li>
+                <li><a href="http://127.0.0.1:5500/galeria.html">galeria</a></li>
+                <li><a href="http://127.0.0.1:5500/faleconosco.html">orçamento</a></li>
+                <li><a href="http://127.0.0.1:5500/faleconosco.html">Fale conosco</a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=5511971840277&text&app_absent=0">(11)97184-0277</a></li>
+              </ul>
+            </div>
+          
+            <div class="col-6 col-s-9">
+                
+                <h1>✉️ <br>
+                Fale conosco</h1>
+                <p></p>
+                <form action="https://formsubmit.co/your@email.com" id="form" method="POST">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Nome" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Email"  required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="message" id="" placeholder="Mensagem" cols="30" rows="10"></textarea>
+                    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                    <button type="submit" id="enviar">enviar</button>
+               </form>  
+               <br>
+               <hr>
+               <p>Nos mande uma mensagem no WHATSAPP</p>
+               <h1><a href="https://api.whatsapp.com/send/?phone=5511971840277&text&app_absent=0" style="text-decoration: none; color: white;"><img src="https://cdn-icons.flaticon.com/png/512/4401/premium/4401461.png?token=exp=1646855630~hmac=d18249a8835a787d1d4d250b1451575f" style="width: 4%;" alt=""><br>(11)97184-0277</a></h1> 
+               <hr>
+               <h1>Aceitamos como pagamento: </h1>
+              <span style="border: 1px solid black;">Cheque <img src="https://www.freeiconspng.com/uploads/checkbook-icon-13.png" style="width: 20%;" alt=""></span>
+               
+               <span style="border: 1px solid black;">Cartão de crédito <img src="https://images.emojiterra.com/google/android-pie/512px/1f4b3.png" style="width: 20%;" alt=""></span>
+               
+               <span style="border: 1px solid black;">Dinheiro <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f4b5.png" style="width: 20%;" alt=""></span>
+               
+            </div>
+          
+            <div class="col-3 col-s-12">
+                <div class="aside">
+                      <h1>Bairros que atendemos na Zona Norte:</h1>
+                          <a href="">Santana</a><br>
+                          <hr>
+                          <a href="">Freguesia do Ó</a><br>
+                          <hr>
+                          <a href="">Vila Guilherme</a><br>
+                          <hr>
+                          <a href="">Vila Maria</a><br>
+                          <hr>
+                          <a href="">Cantareira</a><br>
+                          <hr>
+                          <a href="">Cachoeirinha</a><br>
+                          <hr>
+                          <a href="">Casa Verde</a><br>
+                          <hr>
+                          <a href="">Horto</a><br>
+                          <hr>
+                          <a href="">Tremembé</a><br>
+                          <hr>
+                          <a href="">Tucuruvi</a><br>
+                          <hr>
+                          <a href="">Jaçanã</a><br>
+                          <hr>
+                          <a href="">Mandaqui</a><br>
+                          <hr>
+                          <a href="">Água Fria</a><br>
+                          <hr>
+          
+                      <span class="dots">...</span>
+                      <span class="more">
+                          <a href="">Lauzane </a><br>
+                          <hr>
+                          <a href="">Jardim do Colégio</a><br>
+                          <hr>
+                          <a href="">Jardim Guanandi</a><br>
+                          <hr>
+                          <a href="">Imirim</a><br>
+                          <hr>
+                          <a href="">Vila Mariza Mazzei</a><br>
+                          <hr>
+                          <a href="">Vila Matias</a><br>
+                          <hr>
+                          <a href="">Vila Pauliceia</a><br>
+                          <hr>
+                          <a href="">Vila Rabelo</a><br>
+                          <hr>
+                          <a href="">Jardim Santa Luzia</a><br>
+                          <hr>
+                          <a href="">Santa Terezinha</a><br>
+                          <hr>
+                          <a href="">Vila Santana</a><br>
+                          <hr>
+                          <a href="">Jardim São Paulo</a><br>
+                          <hr>
+                          <a href="">Vila Siciliano</a><br>
+                          <hr>
+                          <a href="">Vila Albertina</a><br>
+                          <hr>
+                          <a href="">Jardim Ataliba Leonel</a><br>
+                          <hr>
+                          <a href="">Vila Aurora</a><br>
+                          <hr>
+                          <a href="">Barro Branco</a><br>
+                          <hr>
+                          <a href="">Vila Constança</a><br>
+                          <hr>
+                          <a href="">Vila Gustavo</a><br>
+                          <hr>
+                          <a href="">Parque Anhanguera</a><br>
+                          <hr>
+                          <a href="">Jardim Britânia</a><br>
+                          <hr>
+                          <a href="">BRASILÂNDIA</a><br>
+                          <hr>
+                          <a href="">Jardim Almanara</a><br>
+                          <hr>
+                          <a href="">vila penteado</a><br>
+                          <hr>
+                          <a href="">Jardim Princesa</a><br>
+                          <hr>
+                          <a href="">Vila Real</a><br>
+                          <hr>
+                          <a href="">Jardim Recanto</a><br>
+                          <hr>
+                          <a href="">Vila Rica</a><br>
+                          <hr>
+                          <a href="">Vila São Joao Batista</a><br>
+                          <hr>
+                          <a href="">Vila São Joaquim</a><br>
+                          <hr>
+                          <a href="">Vila Serralheiro</a><br>
+                          <hr>
+                          <a href="">Vila Souza</a><br>
+                          <hr>
+                          <a href="">Vila Terezinha</a><br>
+                          <hr>
+                          <a href="">Parque Tiete</a><br>
+                          <hr>
+                          <a href="">Jardim do Tiro</a><br>
+                          <hr>
+                          <a href="">Vista Alegre</a><br>
+                          <hr>
+                          <a href="">Vila Zulmira,</a><br>
+                          <hr>
+                          <a href="">Vila Maria</a><br>
+                          <hr>
+                          <a href="">CACHOEIRINHA</a><br>
+                          <hr>
+                          <a href="">Vila Amália</a><br>
+                          <hr>
+                          <a href="">Vila Cachoeira</a><br>
+                          <hr>
+                          <a href="">Vila Amélia</a><br>
+                          <hr>
+                          <a href="">Vila dos Andrades</a><br>
+                          <hr>
+                          <a href="">Vila Angélica</a><br>
+                          <hr>
+                          <a href="">Jardim Antártica</a><br>
+                          <hr>
+                          <a href="">Bela Vista</a><br>
+                          <hr>
+                          <a href="">Campo da Água Branca</a><br>
+                          <hr>
+                          <a href="">Sitio Casa Verde</a><br>
+                          <hr>
+                          <a href="">Jardim Ceci,</a><br>
+                          <hr>
+                          <a href="">Vila Celeste</a><br>
+                          <hr>
+                          <a href="">Jardim Centenário</a><br>
+                          <hr>
+                          <a href="">Vila Continental,</a><br>
+                          <hr>
+                          <a href="">Vila Dionísia</a><br>
+                          <hr>
+                          <a href="">Jardim Flamingo</a><br>
+                          <hr>
+                          <a href="">Jardim Imirim</a><br>
+                          <hr>
+                          <a href="">Jardim Nossa Senhora da Consolata</a><br>
+                          <hr>
+                          <a href="">Cohab Vila Nova Cachoeirinha</a><br>
+                          <hr>
+                          <a href="">Vila Nova Cachoeirinha</a><br>
+                          <hr>
+                          <a href="">VilaPauloRaveli,</a><br>
+                          <hr>
+                          <a href="">Jardim Peri Alto</a><br>
+                          <hr>
+                          <a href="">Jardim Peri Novo</a><br>
+                          <hr>
+                          <a href="">Jardim Peri</a><br>
+                          <hr>
+                          <a href="">Vila Pita</a><br>
+                          <hr>
+                          <a href="">Vila Roque</a><br>
+                          <hr>
+                          <a href="">JardimSanta Cruz</a><br>
+                          <hr>
+                          <a href="">Vila Vista Alegre</a><br>
+                      </span>
+          
+                      <button class="read">Ver mais</button>
+                </div>
+              </div>
+    </section>
+
+    <footer >
+        <div class="boxs">
+            <h2>inicio</h2>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/servi%C3%A7os.html">serviços</a></li>
+                <li><a href="http://127.0.0.1:5500/galeria.html">galeria</a></li>
+                <li><a href="http://127.0.0.1:5500/faleconosco.html">orçamento</a></li>
+                <li><a href="http://127.0.0.1:5500/faleconosco.html">Fale conosco</a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=5511971840277&text&app_absent=0">(11)97184-0277</a></li>
+            </ul>
+
+        </div>
+        <div class="boxs">
+            <h2>EXPEDIENTE</h2>
+            <ul>
+                <li><a href="#">Horário de atendimento das 8hrs até 18hrs (segunda à sexta).</a></li>
+            </ul>
+
+        </div>
+        <div class="boxs">
+            <h2>ORÇAMENTO</h2>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/faleconosco.html">ENVIE-NOS UM E-MAIL</a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=5511971840277&text&app_absent=0">WHATSAPP</a></li>
+                <li><a href="#">CENTRAL</a></li>
+            </ul>
+        </div>
+        <div class="boxs">
+            <h2>Serviços</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, fugiat sequi obcaecati dolorem vel est aliquam impedit nemo quisquam rerum. Rem eveniet blanditiis ea reprehenderit quas architecto iste numquam facilis!
+            </p>
+        </div>
+    </footer>
+
+    <div class="footer">
+        <h2>logo</h2>
+        <div class="sociais">
+            <div class="social">
+                <a href="https://api.whatsapp.com/send/?phone=5511971840277&text&app_absent=0"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/jnmaridodealuguel/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            </div>
+            <div class="social">
+                <a href="https://www.youtube.com/watch?v=iGT2v3svyvU"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
